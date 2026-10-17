@@ -24,6 +24,9 @@ Baixe o `.zip` mais recente na página de **[Releases](https://github.com/maycon
 Nomes próprios, nomes de itens/skills/classes e termos do jogo (Netherworld, Prinny, Item World, Evility...)
 foram mantidos em inglês de propósito. Algumas falas que só existem em japonês no jogo original continuam em japonês.
 
+> **Ainda não traduzido:** os textos dos vídeos (como a abertura "Since the dawn of time...") continuam em inglês,
+> porque estão gravados na imagem do vídeo e não em arquivos de texto.
+
 ## Como instalar
 
 1. Feche o jogo.

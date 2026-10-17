@@ -16,6 +16,10 @@ O QUE ESTÁ TRADUZIDO
   inglês de propósito. Algumas poucas falas que existem só em
   japonês no jogo original continuam em japonês.
 
+  AINDA NÃO TRADUZIDO: os textos dos vídeos (como a abertura
+  "Since the dawn of time...") continuam em inglês, porque estão
+  gravados na imagem do vídeo e não em arquivos de texto.
+
 COMO INSTALAR
   1. Feche o jogo.
   2. Execute "Instalar_Traducao_PTBR_Disgaea4.exe".

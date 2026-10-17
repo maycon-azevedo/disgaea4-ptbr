@@ -60,7 +60,10 @@ Alguns antivírus acusam falso positivo em programas Python empacotados com PyIn
 O código-fonte completo do instalador está na pasta [`src/`](src/), e o hash SHA256 de cada versão
 está na página da release.
 
-## Como compilar o instalador
+## Como compilar o instalador (opcional)
+
+> **Só quer jogar traduzido? Pule esta parte.** Basta baixar o `.zip` na página de [Releases](https://github.com/maycon-azevedo/disgaea4-ptbr/releases/latest)
+> e seguir o [Como instalar](#como-instalar). Esta seção é para quem quer conferir o código ou gerar o `.exe` por conta própria.
 
 O `.exe` da release é gerado a partir da pasta [`src/`](src/) com Python 3.13 (Windows) e PyInstaller 6.22.3:
 

@@ -1,0 +1,67 @@
+==========================================================
+   DISGAEA 4 COMPLETE+ — TRADUÇÃO PT-BR  (versão 1.2)
+   Tradução por: Maykin
+==========================================================
+
+O QUE ESTÁ TRADUZIDO
+  - Toda a história, cenas e diálogos (inclusive pós-jogo, DLCs,
+    Fuka & Desco Show, Salto no Tempo e conteúdo extra)
+  - Interface, menus e tutoriais
+  - Descrições de itens, skills, evilities, innocents e classes
+  - Bestiário, projetos do Senado, efeitos Geo, sala de tortura
+  - Falas dos NPCs da base (Town Edit) e muito mais
+
+  Nomes próprios, nomes de itens/skills/classes e termos do jogo
+  (Netherworld, Prinny, Item World, Evility...) foram mantidos em
+  inglês de propósito. Algumas poucas falas que existem só em
+  japonês no jogo original continuam em japonês.
+
+COMO INSTALAR
+  1. Feche o jogo.
+  2. Execute "Instalar_Traducao_PTBR_Disgaea4.exe".
+  3. O instalador procura o jogo sozinho na Steam. Se não achar,
+     clique em "Procurar..." e selecione a pasta
+     "Disgaea 4 Complete+"
+     (Steam > botão direito no jogo > Gerenciar > Ver arquivos locais).
+  4. Clique em "Instalar tradução" e aguarde a mensagem de sucesso.
+  5. Abra o jogo com o idioma em INGLÊS (a tradução substitui o
+     texto em inglês).
+
+COMO DESINSTALAR
+  Execute o instalador e clique em "Desinstalar (voltar ao inglês)".
+  Ou, na Steam: botão direito no jogo > Propriedades >
+  Arquivos instalados > "Verificar integridade dos arquivos".
+
+PERGUNTAS FREQUENTES
+  * "Os arquivos do jogo não batem com a versão suportada"
+    O jogo foi atualizado ou há outro mod instalado. Use
+    "Verificar integridade dos arquivos" na Steam e rode o
+    instalador de novo. Se o jogo tiver recebido uma atualização
+    oficial, aguarde uma nova versão da tradução.
+
+  * O antivírus reclamou do instalador
+    É um falso positivo comum em programas feitos em Python
+    (PyInstaller). O instalador só altera dois arquivos do jogo:
+      Data\DATA\EN\DATABASE_EN.dat
+      Data\DATA\EN\EN_GameString.dat
+    e guarda uma cópia dos originais em
+      Data\DATA\EN\backup_original_ptbr\
+
+  * Preciso reinstalar depois de uma atualização da Steam?
+    Se a Steam restaurar os arquivos, basta rodar o instalador
+    de novo.
+
+ENCONTROU UM ERRO?
+  Texto cortado, frase estranha, NPC que não fala, etc.
+  Abra uma "Issue" em:
+    https://github.com/maycon-azevedo/disgaea4-ptbr/issues
+  Mande a frase (em inglês ou português) e onde ela aparece
+  no jogo (capítulo, NPC, menu). Um print ajuda muito!
+
+AVISO
+  Tradução de fã, sem fins lucrativos e sem vínculo com a
+  Nippon Ichi Software ou NIS America. Você precisa ter o jogo
+  original. Este pacote não contém arquivos do jogo, apenas o
+  texto traduzido.
+
+Bom jogo, dood!

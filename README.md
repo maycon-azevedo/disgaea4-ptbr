@@ -60,13 +60,27 @@ Alguns antivírus acusam falso positivo em programas Python empacotados com PyIn
 O código-fonte completo do instalador está na pasta [`src/`](src/), e o hash SHA256 de cada versão
 está na página da release.
 
+## Como compilar o instalador
+
+O `.exe` da release é gerado a partir da pasta [`src/`](src/) com Python 3.13 (Windows) e PyInstaller 6.22.3:
+
+```
+cd src
+pip install -r requirements.txt
+python -m PyInstaller --noconfirm --onefile --windowed --name Instalar_Traducao_PTBR_Disgaea4 --add-data "traducao_ptbr.bin;." instalador.py
+```
+
+O executável sai em `src/dist/`. Também dá para rodar sem compilar: `python instalador.py`
+(ou `python instalador.py --status "<pasta do jogo>"` pela linha de comando).
+
 ## Onde está o texto da tradução?
 
-O texto traduzido **não fica neste repositório**. Ele vai embutido no instalador (arquivo `traducao_ptbr.bin`,
-só com o texto em português, compactado), e o instalador aplica esse texto nos arquivos do seu jogo.
+O texto traduzido fica em [`src/traducao_ptbr.bin`](src/traducao_ptbr.bin): só o texto em português, compactado
+com zlib (JSON), mais os hashes SHA256 dos arquivos originais e traduzidos. Esse arquivo vai embutido no instalador,
+que aplica o texto nos arquivos do seu jogo.
 
 Os arquivos de trabalho da tradução não são publicados porque contêm o roteiro original em inglês, que pertence
-à NIS America. Este repositório tem só o código do instalador, para quem quiser conferir o que ele faz.
+à NIS America. Por isso o `build_patch.py` (que gera o `.bin`) não roda sem eles.
 
 ## Encontrou um erro?
 

@@ -36,6 +36,16 @@ foram mantidos em inglês de propósito. Algumas falas que só existem em japon�
 Para **desinstalar**, abra o instalador e clique em **Desinstalar (voltar ao inglês)**. Outra opção é usar
 *Verificar integridade dos arquivos* na Steam.
 
+### "O Windows protegeu o computador"
+
+O instalador não tem assinatura digital paga, então o Windows SmartScreen pode mostrar esse aviso.
+Clique em **Mais informações** → **Executar assim mesmo**.
+
+### Steam Deck / Linux
+
+O instalador é para Windows. No Steam Deck ou no Linux ele pode funcionar pelo Proton/Wine,
+mas isso não foi testado.
+
 ## Segurança
 
 O instalador:
@@ -46,6 +56,14 @@ O instalador:
 Alguns antivírus acusam falso positivo em programas Python empacotados com PyInstaller.
 O código-fonte completo do instalador está na pasta [`src/`](src/), e o hash SHA256 de cada versão
 está na página da release.
+
+## Onde está o texto da tradução?
+
+O texto traduzido **não fica neste repositório**. Ele vai embutido no instalador (arquivo `traducao_ptbr.bin`,
+só com o texto em português, compactado), e o instalador aplica esse texto nos arquivos do seu jogo.
+
+Os arquivos de trabalho da tradução não são publicados porque contêm o roteiro original em inglês, que pertence
+à NIS America. Este repositório tem só o código do instalador, para quem quiser conferir o que ele faz.
 
 ## Encontrou um erro?
 

@@ -9,6 +9,9 @@ Tradução por **Maykin**.
   <img src="imagens/print1.jpg" width="49%" alt="Menu traduzido">
   <img src="imagens/print2.jpg" width="49%" alt="Diálogo traduzido">
 </p>
+<p>
+  <img src="imagens/print3.jpg" width="49%" alt="Descrição de personagem traduzida">
+</p>
 
 ## ⬇️ Download
 
